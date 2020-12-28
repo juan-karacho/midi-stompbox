@@ -48,8 +48,8 @@ void buttonPressed(int buttonNumber){
     Serial.println(page);
   } else{
     // select program and send midi message
-    int midiProgram=((page-1)*4) + buttonNumber;
-    usbMIDI.sendProgramChange(1, midiProgram);
+    int midiProgram=((page-1)*4) + buttonNumber-1;
+    usbMIDI.sendProgramChange(midiProgram, channel);
     page=0;
     Serial.print("send program change to program ");
     Serial.println(midiProgram);

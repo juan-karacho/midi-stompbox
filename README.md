@@ -23,7 +23,7 @@ I use it to:
 The Source Code comes in two versions:
 
 * **midistomp_note_on_off** sends midi notes 60, 61, 62 or 63 on midi channel 1.
-* **midistomp_program_change** sends program change messages on midi channel 1. Using two stomps you can change to program 1-16. The programs are arranged in pages 1-4. Page 1 corresponds to programs 1-4, page 2 to programs 5-8, page 3 to programs 9-12 and page 4 to programs 13-16. First stomp selects the page, second stomp the midi program. So to select program 2, stomp 1 and 2. Program 13 is stomp 4 and 1. Etc... After selecting the page, you can select the program in one second.
+* **midistomp_program_change** sends program change messages on midi channel 1. Using two stomps you can change to program 0-15. The programs are arranged in pages 1-4. Page 1 corresponds to programs 0-3, page 2 to programs 4-7, page 3 to programs 8-11 and page 4 to programs 12-15. First stomp selects the page, second stomp the midi program. So to select program 1, stomp 1 and 2. Program 12 is stomp 4 and 1. Etc... After selecting the page, you can select the program in one second.
 
 ## Electrical Wiring
 
