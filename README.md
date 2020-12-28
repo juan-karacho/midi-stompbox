@@ -1,6 +1,12 @@
 # Midi Stompbox
 
-This stompbox sends MIDI messages via USB MIDI. It contains of
+This stompbox sends MIDI messages via USB MIDI. 
+
+![stompbox.jpeg](stompbox.jpeg)
+![stompbox_open.jpeg](stompbox_open.jpeg)
+
+
+It consists of
 
 * Teensy LC Microcontroller
 * 4 Stomp Box Footswitches
