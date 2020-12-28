@@ -11,6 +11,7 @@ It consists of
 * Teensy LC Microcontroller
 * 4 Stomp Box Footswitches
 * An enclosure
+* Some isolated wire
 * Rubber feet
 
 I use it to:
