@@ -11,6 +11,7 @@ It consists of
 * Teensy LC Microcontroller
 * 4 Stomp Box Footswitches
 * An enclosure
+* Rubber feet
 
 I use it to:
 
@@ -38,3 +39,8 @@ I used Arduino IDE to compile the code and transfer it to the Teensy.
 
 * As for any Teensy based programs you need to install the Teensyduino Extension for Arduino IDE: https://www.pjrc.com/teensy/teensyduino.html
 * Before building and uploding, select USB Type "Serial + Midi" in the Arduino IDE
+
+## If I would build it again
+
+* I would pay more for the stompbox switches. I bought them on Aliexpress and paid 2 Euro for 10 switches. They work but they make a super loud click. Next time I will buy super silent switches in a shop for DIY music electronics which cost around 2 Euro per switch.
+* I would have spent more time on thinking about and measuring the position of the teensy board and the hole in the enclosure. Right now it fits somehow, but I would like the USB plug to be right in the middle of the hole. Or use a USB B Neutrik socket.
