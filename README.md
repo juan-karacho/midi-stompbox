@@ -27,7 +27,7 @@ The Source Code comes in two versions:
 
 ## Electrical Wiring
 
-Unfortunately I did not write down a schematic. It is powered via USB. You only need to connect the buttons in series to the Teensy input pins and ground. It uses the internal pullups. Connect these pins:
+Unfortunately I did not write down a schematic. But the wiring is not very complicated so I hope a short explanation is sufficient. The Teensy is powered via USB. You only need to connect the buttons in series to the Teensy input pins and ground. It uses the internal pullups. Connect these pins:
 
 * button 1: teensy pin 2
 * button 2: teensy pin 1
